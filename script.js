@@ -35,7 +35,7 @@ function computerChoice(){
 function chekWinner(){
 
   if(player===computer){
-    return 'Равни!'
+    return 'Равенство!'
   }else if(computer==='Камък'){
     return(player==='Хартия')? 'Ти Спечели!':'Ти Загуби!'
   }else if(computer==='Хартия'){
